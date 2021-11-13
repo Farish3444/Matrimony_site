@@ -1,0 +1,34 @@
+img {
+  min-height: 110%;
+  min-width: 100px;
+
+  width: 110%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* 
+.Logo img {
+  position: absolute;
+  top: 30;
+  left: 10%;
+  transform: translateX(-50%);
+  width: 25%;
+  height: 10%;
+} */
+
+/* .Logo {
+  height: 100px;
+  width: 200px;
+  margin-left: -20%;
+} */
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  img {
+    left: 50%;
+    margin-left: -174px; /* 50% */
+  }
+}
